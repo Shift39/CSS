@@ -1,0 +1,144 @@
+body{
+    margin: 0%; 
+    background-color: black;
+    font-family: nonespace;
+}
+
+.header{
+    border-bottom: aqua solid;
+    
+
+}
+.header .container {
+    margin: auto;
+    justify-content: space-between;
+    
+    
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+.header ul .aqui{
+    font-weight: 1000;
+    color:goldenrod;
+}
+
+.titulo{
+    color: rgb(101, 236, 236); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: fit-content;
+  
+
+}
+.navBar {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: #ffff;
+    list-style: none;
+    
+    display: flex; 
+   
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 0%;
+    align-items: center;
+    
+}
+
+
+
+.banner{
+    background-image: url('imgs/bg-jelly-fish-para-home.png');
+    height: 650px;
+    color: #ffff;
+    display: flex;
+}
+.banner .container p span{
+   font-weight: 1000;
+   
+}
+.banner .container {
+    justify-content: center;
+    font-size: 36px;
+    
+}
+.social{
+    background-color: beige;
+    display: flex;
+}
+.social .container .boxes .box img{
+    width: 200px;
+    margin-top: 50px;
+}
+.social .container .boxes{
+    display: flex;
+    
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.footer {
+    background-color:  bisque;
+    height: 150px;
+    color: black;
+    display: flex;
+    font-size: 20px;
+}
+.footer .container{
+    justify-content: center;
+}
+a {
+    color:  #ffff;
+    text-decoration: none;
+}
+.banner .container .card{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: 3px;
+    padding: 3%;
+}
+.card h1{
+    font-size: 30px;
+    color: black;
+    
+}
+.card h4{
+    font-size: 16px;
+    color: black;
+}
+.banner .container p{
+    width: 15%;
+}
+.card input{
+    border: 3px;
+    padding: 5px;
+    border-radius: 5%;
+    text-align: center;
+}
+.card button{
+    background-color: blueviolet;
+    margin-top: 50px;
+    font-size: 50px;
+    height: 100px;
+    width: 150px;
+    color: #
+    
+    ffff;
+    font: 700 20px Georgia;
+    border-radius:  5%;
+    cursor: pointer;
+
+}
